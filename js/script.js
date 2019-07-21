@@ -10,4 +10,11 @@ $(document).ready(function() {
 		openEffect	: 'none',
 		closeEffect	: 'none'
 	});
+	$('[data-fancybox]').fancybox({
+		toolbar  : false,
+		smallBtn : true,
+		iframe : {
+			preload : false
+		}
+	})
 });
